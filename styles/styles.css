@@ -1,15 +1,37 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+body {
+  font-family: Roboto, Hevetica, sans-serif;
+ }
+ h1 {
+   font-family: 'Rock Salt', 'Bradley Hand', cursive;
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
-  --background-color: darkblue;
+    --primary-color: #EDE7E3;
+    --seconday-color: #8ECAE6;
+    --accent1: #023047;
+    --accent2-color: #04011a;
+   /* Coolors color palette: https://coolors.co/f2d7ee-d3cc0-a306d-0e103d */
 }
+
 body {
-  font-size: 16 px;
-  font-family: Roboto, Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--accent1);
 }
+
+h1 {
+    color: var(--seconday-color);
+}
+
+p {
+    color: var(--accent2-color);
+}
+
+
 nav{
   background-color: darkblue;
   padding: 10px;
