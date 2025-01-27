@@ -13,7 +13,7 @@ body {
 :root {
     --primary-color: #EDE7E3;
     --seconday-color: #8ECAE6;
-    --accent1: #07496b;
+    --accent1: #023047;
     --accent2-color: #04011a;
    /* Coolors color palette: https://coolors.co/f2d7ee-d3cc0-a306d-0e103d */
 }
@@ -30,8 +30,16 @@ h1 {
 p {
     color: var(--accent2-color);
 }
-
-
+#herodiv {
+  position: relative;
+}
+#herodiv h1 {
+  position: absolute;
+  bottom: -1px;
+}
+#heroimage {
+  float: right;
+}
 nav{
   background-color: darkblue;
   padding: 10px;
@@ -88,6 +96,7 @@ footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+  text-decoration: none;
 }
 /* Class Selectors*/
 .box {
